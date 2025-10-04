@@ -17,21 +17,20 @@ body {
       padding-bottom: 14px;
     }
 
-    .welcome-section .main-title {
-      color: #ffd600;
-      font-size: 2.6rem;
-      font-weight: 900;
-      letter-spacing: 0.018em;
-      text-shadow: 0 2px 18px rgba(60,60,60, 0.13);
-      margin-bottom: 13px;
-    }
-
-    .welcome-section .intro-text {
-      color: #e8ecf7;
-      font-size: 1.25rem;
-      font-weight: 500;
-      margin-bottom: 24px;
-    }
+    .welcome-title {
+  color: #ffd600;
+  font-size: 2.6rem;
+  font-weight: 900;
+  letter-spacing: 0.018em;
+  text-shadow: 0 2px 18px rgba(60,60,60, 0.13);
+  margin-bottom: 13px;
+}
+.welcome-description {
+  color: #e8ecf7;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
 
     .link-buttons-row {
       display: flex;
