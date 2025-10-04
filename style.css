@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 body {
-      background-color:linear-gradient(135deg, #7f7fd5 0%, #91eae4 100%);;
+      background:linear-gradient(135deg, #7f7fd5 0%, #91eae4 100%);;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
