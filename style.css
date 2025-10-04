@@ -9,7 +9,6 @@ body {
       box-sizing: border-box;
     }
 
-    /* Welcome Section Styling */
     .welcome-section {
       text-align: center;
       padding: 60px 20px 40px;
@@ -31,7 +30,7 @@ body {
       margin-right: auto;
     }
 
-    .nav-buttons {
+    .link-buttons-row {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -39,7 +38,7 @@ body {
       margin-bottom: 50px;
     }
 
-    .nav-buttons button {
+    .link-buttons-row button {
       background: #ffd700;
       color: #1f1f40;
       border: none;
@@ -53,7 +52,7 @@ body {
       min-width: 180px;
     }
 
-    .nav-buttons button:hover {
+    .link-buttons-row button:hover {
       background: #e5c500;
     }
 
