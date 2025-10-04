@@ -40,6 +40,7 @@ body {
 
     .link-buttons-row a {
       background: #ffd700;
+      text-decoration: none;
       color: #1f1f40;
       border: none;
       padding: 14px 24px;
