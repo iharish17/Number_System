@@ -38,7 +38,7 @@ body {
       margin-bottom: 50px;
     }
 
-    .link-buttons-row button {
+    .link-buttons-row a {
       background: #ffd700;
       color: #1f1f40;
       border: none;
@@ -52,7 +52,7 @@ body {
       min-width: 180px;
     }
 
-    .link-buttons-row button:hover {
+    .link-buttons-row a:hover {
       background: #e5c500;
     }
 
