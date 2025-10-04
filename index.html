@@ -3,24 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Number Types & Finder</title>
+  <title>Number System</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
 
-  <!-- Welcome Section -->
   <div class="welcome-section">
     <h1 class="main-title">Welcome Maths Lovers!</h1>
     <p class="intro-text">Explore your passion for mathematics with our carefully curated tools and resources. Click a button below to jump to the tool you want to use.</p>
-    <div class="nav-buttons">
-      <button onclick="location.href='quadratic.html'">Quadratic Equation Solver</button>
-      <button onclick="location.href='equation.html'">Equation Solver</button>
-      <button onclick="location.href='statistics.html'">Mean, Mode Median</button>
-      <button onclick="location.href='numbers.html'">Number System</button>
+    <div class="link-buttons-row">
+      <a href="https://solve-equation.vercel.app/" class="link-button">Quadratic Equation Solver</a>
+      <a href="https://solve-equation.vercel.app/" class="link-button">Equation Solver</a>
+      <a href="https://mean-mode-median.vercel.app/" class="link-button">Mean, Mode Median</a>
+      <a href="#" class="link-button">Number System</a>
     </div>
   </div>
 
-  <!-- Number System Tool -->
   <div class="container">
     <h1>Welcome To Number System</h1>
     <p class="welcome-text">Click on any number's button you want to know about that number type and 
@@ -48,10 +47,8 @@
       <button data-type="square">Square Numbers</button>
       <button data-type="cube">Cube Numbers</button>
     </div>
-
     <div id="info-area"></div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
