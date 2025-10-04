@@ -40,7 +40,7 @@ body {
       margin-top: 11px;
     }
 
-    .link-buttons-row a {
+    .link-button {
       text-decoration: none;
       background: #ffd600;
       color: #2c2f36;
@@ -55,7 +55,7 @@ body {
       margin-bottom: 14px;
     }
 
-    .link-buttons-row a:hover {
+    .link-button:hover {
       filter: brightness(0.94);
       transform: translateY(-2px) scale(1.04);
     }
