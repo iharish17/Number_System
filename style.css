@@ -62,10 +62,11 @@ body {
 
     /* Number System Tool Section */
     .container {
-      max-width: auto;
-      margin: 0 auto 40px;
+      width: 100%;
       text-align: center;
-      padding: 0 20px 40px;
+      margin: 0 auto 40px auto;
+      padding-top: 42px;
+      padding-bottom: 14px;
     }
 
     h1 {
