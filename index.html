@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Number Types & Finder</title>
-<link rel="icon" type="image/png" href="favicon.png" />
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Number Types & Finder</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-  <h1>Welcome To Number System</h1>
-  <p class="welcome-text">Click on any number's button you want to know about that number type and 
-    check that type of numbers up to a certain range (which is supported!).
-  </p>
-  <div class="buttons" id="type-buttons">
-    <button data-type="natural">Natural Numbers</button>
-    <button data-type="whole">Whole Numbers</button>
-    <button data-type="integer">Integers</button>
-    <button data-type="rational">Rational Numbers</button>
-    <button data-type="irrational">Irrational Numbers</button>
-    <button data-type="real">Real Numbers</button>
-    <button data-type="imaginary">Imaginary Numbers</button>
-    <button data-type="complex">Complex Numbers</button>
-    <button data-type="even">Even Numbers</button>
-    <button data-type="odd">Odd Numbers</button>
-    <button data-type="prime">Prime Numbers</button>
-    <button data-type="perfect">Perfect Numbers</button>
-    <button data-type="amicable">Amicable Numbers</button>
-    <button data-type="transcendental">Transcendental Numbers</button>
-    <button data-type="algebraic">Algebraic Numbers</button>
-    <button data-type="palindromic">Palindromic Numbers</button>
-    <button data-type="triangular">Triangular Numbers</button>
-    <button data-type="fibonacci">Fibonacci Numbers</button>
-    <button data-type="square">Square Numbers</button>
-    <button data-type="cube">Cube Numbers</button>
+
+  <!-- Welcome Section -->
+  <div class="welcome-section">
+    <h1 class="main-title">Welcome Maths Lovers!</h1>
+    <p class="intro-text">Explore your passion for mathematics with our carefully curated tools and resources. Click a button below to jump to the tool you want to use.</p>
+    <div class="nav-buttons">
+      <button onclick="location.href='quadratic.html'">Quadratic Equation Solver</button>
+      <button onclick="location.href='equation.html'">Equation Solver</button>
+      <button onclick="location.href='statistics.html'">Mean, Mode Median</button>
+      <button onclick="location.href='numbers.html'">Number System</button>
+    </div>
   </div>
 
-  <div id="info-area"></div>
-</div>
+  <!-- Number System Tool -->
+  <div class="container">
+    <h1>Welcome To Number System</h1>
+    <p class="welcome-text">Click on any number's button you want to know about that number type and 
+      check that type of numbers up to a certain range (which is supported!).
+    </p>
+    <div class="buttons" id="type-buttons">
+      <button data-type="natural">Natural Numbers</button>
+      <button data-type="whole">Whole Numbers</button>
+      <button data-type="integer">Integers</button>
+      <button data-type="rational">Rational Numbers</button>
+      <button data-type="irrational">Irrational Numbers</button>
+      <button data-type="real">Real Numbers</button>
+      <button data-type="imaginary">Imaginary Numbers</button>
+      <button data-type="complex">Complex Numbers</button>
+      <button data-type="even">Even Numbers</button>
+      <button data-type="odd">Odd Numbers</button>
+      <button data-type="prime">Prime Numbers</button>
+      <button data-type="perfect">Perfect Numbers</button>
+      <button data-type="amicable">Amicable Numbers</button>
+      <button data-type="transcendental">Transcendental Numbers</button>
+      <button data-type="algebraic">Algebraic Numbers</button>
+      <button data-type="palindromic">Palindromic Numbers</button>
+      <button data-type="triangular">Triangular Numbers</button>
+      <button data-type="fibonacci">Fibonacci Numbers</button>
+      <button data-type="square">Square Numbers</button>
+      <button data-type="cube">Cube Numbers</button>
+    </div>
 
-<script src="script.js"></script>
+    <div id="info-area"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
